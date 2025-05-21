@@ -1,0 +1,37 @@
+.profile-page {
+    padding: 60px 40px;
+    background: linear-gradient(135deg, #f3f3f3 30%, #2b1f34 70%);
+    min-height: 100vh;
+    color: black;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .stats-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .stat-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    color: black;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  
+  .chart-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
